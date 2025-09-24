@@ -43,25 +43,23 @@ Cryptocurrency and digital wallets are prone to fraud due to the lack of central
 
 ## Project Structure
 
-fraud_detection_project/
-│
-├── data/
-│ └── generated_data.csv # synthetic wallet transactions
-│
-├── models/
-│ └── fraud_model.pkl # trained anomaly detection model
-│
-├── notebooks/
-│ └── eda_and_modeling.ipynb # exploratory data analysis + model training
-│
-├── api/
-│ └── alert_api.py # FastAPI app for receiving alerts
-│
-├── src/
-│ ├── data_generator.py # generate synthetic wallet and transaction data
-│ ├── feature_engineering.py # extract features for anomaly detection
-│ ├── train_model.py # train Isolation Forest / One-Class SVM
-│ ├── detect_anomalies.py # detect anomalies in new transactions
+[data_generator.py] 
+        │
+        ▼
+[data/generated_data.csv]
+        │
+        ▼
+[feature_engineering.py] 
+        │
+        ▼
+[train_model.py]  ──> [models/fraud_model.pkl]
+        │
+        ▼
+[detect_anomalies.py] ──> sends alerts ──> [api/alert_api.py]
+        │
+        ▼
+   Admin sees alerts / dashboard
+
 
 
 Step-by-Step Approach
