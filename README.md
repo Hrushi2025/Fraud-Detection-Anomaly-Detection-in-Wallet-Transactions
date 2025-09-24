@@ -43,24 +43,7 @@ Cryptocurrency and digital wallets are prone to fraud due to the lack of central
 
 ## Project Structure
 
-[data_generator.py] 
-        │
-        ▼
-[data/generated_data.csv]
-        │
-        ▼
-[feature_engineering.py] 
-        │
-        ▼
-[train_model.py]  ──> [models/fraud_model.pkl]
-        │
-        ▼
-[detect_anomalies.py] ──> sends alerts ──> [api/alert_api.py]
-        │
-        ▼
-   Admin sees alerts / dashboard
-
-
+<img width="580" height="609" alt="image" src="https://github.com/user-attachments/assets/a338ef21-2c69-4eab-b7f6-54bc9e6ff749" />
 
 Step-by-Step Approach
 
