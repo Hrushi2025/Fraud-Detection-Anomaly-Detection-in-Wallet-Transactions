@@ -43,7 +43,8 @@ Cryptocurrency and digital wallets are prone to fraud due to the lack of central
 
 ## Project Structure
 
-<img width="580" height="609" alt="image" src="https://github.com/user-attachments/assets/a338ef21-2c69-4eab-b7f6-54bc9e6ff749" />
+<img width="677" height="534" alt="image" src="https://github.com/user-attachments/assets/f5758199-5d6e-41d8-843e-489ada669d7c" />
+
 
 Step-by-Step Approach
 
