@@ -1,4 +1,7 @@
 # Fraud-Detection-Anomaly-Detection-in-Wallet-Transactions
+
+<img width="1024" height="1024" alt="image" src="https://github.com/user-attachments/assets/547cf886-e894-466c-8166-defa8df6e490" />
+
 Project Overview
 
 **Objective:**  
@@ -43,7 +46,9 @@ Cryptocurrency and digital wallets are prone to fraud due to the lack of central
 
 ## Project Structure
 
-<img width="677" height="534" alt="image" src="https://github.com/user-attachments/assets/f5758199-5d6e-41d8-843e-489ada669d7c" />
+
+<img width="1024" height="1024" alt="image" src="https://github.com/user-attachments/assets/dd0b037c-3000-4bff-a09e-50eb0198db7c" />
+
 
 
 Step-by-Step Approach
